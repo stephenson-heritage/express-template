@@ -1,0 +1,24 @@
+{
+  "name": "express-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "set PORT=80 & set DEBUG=express-template:* & nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenson-heritage/express-template.git"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "^4.1.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
